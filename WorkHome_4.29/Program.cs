@@ -12,6 +12,7 @@ void FillArray(int[] massiv)
         System.Console.Write($"Введите элемент массива № {i+1}: ");
         array[i] = int.Parse(Console.ReadLine()!);
     }
+    //Console.WriteLine($"[{String.Join(",", array)}]");
 }
 
 void PrintArray(int[] massiv)
